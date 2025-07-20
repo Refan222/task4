@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/https//refan222.github.io/task4/static/css/main.6c608700.css",
-    "main.js": "/https//refan222.github.io/task4/static/js/main.e2f8ecce.js",
-    "static/media/slick.svg": "/https//refan222.github.io/task4/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "/https//refan222.github.io/task4/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "/https//refan222.github.io/task4/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "/https//refan222.github.io/task4/static/media/slick.295183786cd8a1389865.woff",
-    "index.html": "/https//refan222.github.io/task4/index.html",
-    "main.6c608700.css.map": "/https//refan222.github.io/task4/static/css/main.6c608700.css.map",
-    "main.e2f8ecce.js.map": "/https//refan222.github.io/task4/static/js/main.e2f8ecce.js.map"
+    "main.css": "/task4/static/css/main.bd4c0c4d.css",
+    "main.js": "/task4/static/js/main.e2f8ecce.js",
+    "static/media/slick.svg": "/task4/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/task4/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/task4/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/task4/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/task4/index.html",
+    "main.bd4c0c4d.css.map": "/task4/static/css/main.bd4c0c4d.css.map",
+    "main.e2f8ecce.js.map": "/task4/static/js/main.e2f8ecce.js.map"
   },
   "entrypoints": [
-    "static/css/main.6c608700.css",
+    "static/css/main.bd4c0c4d.css",
     "static/js/main.e2f8ecce.js"
   ]
 }
