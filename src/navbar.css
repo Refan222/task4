@@ -1,0 +1,28 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color:white;
+  padding: 10px 20px;
+  color:rgb(61, 48, 103);
+  direction: rtl;
+}
+
+.navbar-left {
+  display: flex;
+  gap: 15px;
+}
+
+.icon-button {
+  background: none;
+  border: none;
+  font-size: 1.1rem;
+  cursor: pointer;
+  color:rgb(61, 48, 103);
+  transition: transform 0.2s;
+  font-weight: bold;
+}
+
+.icon-button:hover {
+  transform: scale(1.2);
+}
+

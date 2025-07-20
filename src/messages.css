@@ -1,0 +1,147 @@
+
+.car-details-page {
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.car-images {
+  position: relative;
+  margin-bottom: 20px;
+}
+.main-image {
+  width: 100%;
+  height: 500px;
+  border-radius: 10px;
+}
+
+.top-icons,
+.bottom-icon {
+  position: absolute;
+  display: flex;
+  gap: 10px;
+}
+
+.top-icons {
+  top: 10px;
+  left: 10px;
+}
+
+.bottom-icon {
+  bottom: 10px;
+  left: 10px;
+}
+.thank-you-box {
+  background-color: #f8f9fa;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  margin: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.thank-you-box .thank-icon {
+  font-size: 40px;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+
+.winner-box {
+  background-color: #fff3cd;
+  border: 1px solid #ffeeba;
+  padding: 15px 20px;
+  justify-content: center;
+  margin: 20px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: bold;
+  color: #856404;
+}
+
+
+.win-box {
+  background-color: #d4edda;
+  border: 1px solid #c3e6cb;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  margin: 20px;
+  color: #155724;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.trophy-icon {
+  font-size: 40px;
+  color: #28a745;
+  margin-bottom: 10px;
+}
+ button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.confirmation-popup {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.popup-content {
+  background: #fff;
+  border-radius: 20px;
+  padding: 30px;
+  width: 350px;
+  text-align: center;
+  direction: rtl;
+}
+
+
+
+.bid-amount {
+  background: #f5f7fc;
+  padding: 10px;
+  margin: 20px 0;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.confirm-btn {
+  background-color: #2b2d81;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.cancel-btn {
+  background-color: #f0f0f0;
+  color: #333;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.dont-show {
+  font-size: 14px;
+  color: #666;
+}

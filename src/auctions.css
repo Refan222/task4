@@ -1,0 +1,137 @@
+.auctions-page {
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+
+.hero-section {
+  position: relative;
+  height: 250px;
+  margin-bottom: 30px;
+}
+
+.hero-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.hero-content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 40px 20px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-content h2 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.excel-button {
+  background-color: white;
+  color: rgb(61, 48, 103);
+  border: none;
+  padding: 10px 16px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.excel-icon {
+  font-size: 1.2rem;
+}
+
+.brand-logos {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.brand-box {
+  text-align: center;
+  width: 100px;
+}
+
+.brand-box img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+
+.auction-tabs {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.auction-tabs button {
+  background: none;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  padding-bottom: 5px;
+}
+
+.auction-tabs .active {
+  border-color: #3a2d85;
+  color: #3a2d85;
+  font-weight: bold;
+}
+
+.car-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.car-card {
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.car-image {
+  width: 100%;
+  border-radius: 8px;
+  height: 160px;
+  object-fit: cover;
+}
+
+.car-info {
+  padding: 10px 5px;
+}
+
+.car-info h3 {
+  margin: 5px 0;
+  font-size: 1rem;
+}
+
+.car-info p {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.car-logo {
+  width: 24px;
+  height: 24px;
+  margin-left: 6px;
+}
+
+.price {
+  padding: 10px 5px;
+  font-weight: bold;
+  color: #222;
+}

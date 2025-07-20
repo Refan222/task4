@@ -1,0 +1,102 @@
+.sidebar {
+  width: 220px;
+  background-color: white;
+  color: rgb(61, 48, 103);
+  height: 100vh;
+  padding: 20px 15px;
+  box-sizing: border-box;
+  position: relative;
+  top: 0;
+  right: 0;
+  z-index: 500;
+  font-family: 'Arial', sans-serif;
+}
+
+.logo-image {
+  width: 150px;
+  height: auto;
+  display: block;
+  margin: 0 auto 20px;
+}
+
+
+.sidebar-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: larger;
+}
+
+
+.sidebar-menu a {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+  text-decoration: none;
+  color: rgb(61, 48, 103);
+  transition: background 0.2s;
+  border-radius: 6px;
+  font-size: larger;
+}
+
+.sidebar-menu a:hover {
+  background-color: #7272ce44;
+}
+
+.sidebar-menu a.active {
+  background-color: #d9d9f0;
+  font-weight: bold;
+}
+
+
+.expandable {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  cursor: pointer;
+  color: rgb(61, 48, 103);
+  border-radius: 6px;
+  transition: background 0.2s;
+}
+
+.expandable:hover {
+  background-color: #7272ce44;
+}
+
+
+.sub-menu {
+  list-style: none;
+  padding-right: 15px;
+  padding-left: 0;
+  margin-top: 5px;
+}
+
+.sub-menu a {
+  display: block;
+  padding: 6px 10px;
+  color: rgb(61, 48, 103);
+  text-decoration: none;
+  font-size: medium;
+  border-radius: 4px;
+}
+
+.sub-menu a:hover {
+  background-color: #eeeeff;
+}
+
+.sub-menu a.active {
+  background-color: #d9d9f0;
+  font-weight: bold;
+}
+
+.icon {
+  font-size: 1.2rem;
+}
+
+.chevron-icon {
+  margin-right: auto;
+  font-size: 0.9rem;
+  color: #555;
+}
