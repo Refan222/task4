@@ -6,9 +6,9 @@ function Auctions() {
   const [activeTab, setActiveTab] = useState('all');
   const navigate = useNavigate();
   const carBrands = [
-  { name: 'Volkswagen', logo: `${process.env.PUBLIC_URL}/Volkswagen.jpg` },
-  { name: 'Peugeot', logo: `${process.env.PUBLIC_URL}/Peugeot.jpg `},
-  { name: 'Mercedes Benz', logo: `${process.env.PUBLIC_URL}/Mercedes.jpg` },
+  { name: 'Volkswagen', logo: `${process.env.PUBLIC_URL}/volkswagen.jpg`},
+  { name: 'Peugeot', logo: `${process.env.PUBLIC_URL}/peugeot.jpg`},
+  { name: 'Mercedes Benz', logo: `${process.env.PUBLIC_URL}/mercedes.jpg`},
   { name: 'Ford', logo: `${process.env.PUBLIC_URL}/ford.jpg` },
   { name: 'BMW', logo: `${process.env.PUBLIC_URL}/bmwlogo.jpg` },
   { name: 'Audi', logo: `${process.env.PUBLIC_URL}/audi.jpg` },

@@ -9,7 +9,7 @@ function Sidebar() {
   return (
     <aside className="sidebar" dir="rtl">
       <div className="sidebar-logo">
-        <img src={`${process.env.PUBLIC_URL}logo.jpg`} alt="mazadatLogo" className="logo-image" />
+        <img src={`${process.env.PUBLIC_URL}/logo.jpg`} alt="mazadatLogo" className="logo-image" />
       </div>
 
       <ul className="sidebar-menu">
