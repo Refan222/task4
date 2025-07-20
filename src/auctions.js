@@ -6,70 +6,70 @@ function Auctions() {
   const [activeTab, setActiveTab] = useState('all');
   const navigate = useNavigate();
   const carBrands = [
-    { name: 'Volkswagen', logo: 'Volkswagen.jpg' },
-    { name: 'Peugeot', logo: 'Peugeot.jpg' },
-    { name: 'Mercedes Benz', logo: 'Mercedes.jpg' },
-    { name: 'Ford', logo: 'ford.jpg' },
-    { name: 'BMW', logo: 'bmwlogo.jpg' },
-    { name: 'Audi', logo: 'audi.jpg' },
-  ];
+  { name: 'Volkswagen', logo: `${process.env.PUBLIC_URL}/Volkswagen.jpg` },
+  { name: 'Peugeot', logo: `${process.env.PUBLIC_URL}/Peugeot.jpg `},
+  { name: 'Mercedes Benz', logo: `${process.env.PUBLIC_URL}/Mercedes.jpg` },
+  { name: 'Ford', logo: `${process.env.PUBLIC_URL}/ford.jpg` },
+  { name: 'BMW', logo: `${process.env.PUBLIC_URL}/bmwlogo.jpg` },
+  { name: 'Audi', logo: `${process.env.PUBLIC_URL}/audi.jpg` },
+];
 
   const cars = [
-    {
-      brand: 'BMW',
-      title: 'بي ام دبليو 2024',
-      desc: 'كيوبيه اسود سقف متحرك 460i',
-      price: '50,0000',
-      image: 'bmw.jpg',
-      logo: 'bmwlogo.jpg',
-    },
-    {
-      brand: 'BMW',
-      title: 'بي ام دبليو 2024',
-      desc: 'كيوبيه اسود سقف متحرك 460i',
-      price: '50,0000',
-      image: 'bmw.jpg',
-      logo: 'bmwlogo.jpg',
-    },
-    {
-      brand: 'BMW',
-      title: 'بي ام دبليو 2024',
-      desc: 'كيوبيه اسود سقف متحرك 460i',
-      price: '50,0000',
-      image: 'bmw.jpg',
-      logo: 'bmwlogo.jpg',
-    },
-    {
-      brand: 'BMW',
-      title: 'بي ام دبليو 2024',
-      desc: 'كيوبيه اسود سقف متحرك 460i',
-      price: '50,0000',
-      image: 'bmw.jpg',
-      logo: 'bmwlogo.jpg',
-    },
-    {
-      brand: 'BMW',
-      title: 'بي ام دبليو 2024',
-      desc: 'كيوبيه اسود سقف متحرك 460i',
-      price: '50,0000',
-      image: 'bmw.jpg',
-      logo: 'bmwlogo.jpg',
-    },
-    {
-      brand: 'BMW',
-      title: 'بي ام دبليو 2024',
-      desc: 'كيوبيه اسود سقف متحرك 460i',
-      price: '50,0000',
-      image: 'bmw.jpg',
-      logo: 'bmwlogo.jpg',
-    },
+   {
+  brand: 'BMW',
+  title: 'بي ام دبليو 2024',
+  desc: 'كيوبيه اسود سقف متحرك 460i',
+  price: '50,0000',
+  image: `${process.env.PUBLIC_URL}/bmw.jpg`,
+  logo: `${process.env.PUBLIC_URL}/bmwlogo.jpg`,
+},
+      {
+  brand: 'BMW',
+  title: 'بي ام دبليو 2024',
+  desc: 'كيوبيه اسود سقف متحرك 460i',
+  price: '50,0000',
+  image: `${process.env.PUBLIC_URL}/bmw.jpg`,
+  logo: `${process.env.PUBLIC_URL}/bmwlogo.jpg`,
+},
+       {
+  brand: 'BMW',
+  title: 'بي ام دبليو 2024',
+  desc: 'كيوبيه اسود سقف متحرك 460i',
+  price: '50,0000',
+  image: `${process.env.PUBLIC_URL}/bmw.jpg`,
+  logo: `${process.env.PUBLIC_URL}/bmwlogo.jpg`,
+},
+       {
+  brand: 'BMW',
+  title: 'بي ام دبليو 2024',
+  desc: 'كيوبيه اسود سقف متحرك 460i',
+  price: '50,0000',
+  image: `${process.env.PUBLIC_URL}/bmw.jpg`,
+  logo: `${process.env.PUBLIC_URL}/bmwlogo.jpg`,
+},
+      {
+  brand: 'BMW',
+  title: 'بي ام دبليو 2024',
+  desc: 'كيوبيه اسود سقف متحرك 460i',
+  price: '50,0000',
+  image: `${process.env.PUBLIC_URL}/bmw.jpg`,
+  logo: `${process.env.PUBLIC_URL}/bmwlogo.jpg`,
+},
+   {
+  brand: 'BMW',
+  title: 'بي ام دبليو 2024',
+  desc: 'كيوبيه اسود سقف متحرك 460i',
+  price: '50,0000',
+  image: `${process.env.PUBLIC_URL}/bmw.jpg`,
+  logo: `${process.env.PUBLIC_URL}/bmwlogo.jpg`,
+},
     
   ];
 
   return (
     <div className="auctions-page" dir="rtl">
       <div className="hero-section">
-        <img src="/car2.jpg" className="hero-img" alt="car" />
+        <img src={`${process.env.PUBLIC_URL}/car2.jpg`} className="hero-img" alt="car" />
         <div className="hero-content">
           <h2>المزادات</h2>
           <button className="excel-button">

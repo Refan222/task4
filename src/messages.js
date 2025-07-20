@@ -34,8 +34,8 @@ function Messages() {
     <div className="car-details-page" dir="rtl">
       <div className="car-images">
         <Slider dots={true} infinite={true} speed={500} slidesToShow={1} slidesToScroll={1}>
-          <img src="bmw.jpg" alt="السيارة 1" className="main-image" />
-          <img src="bmw3.jpg" alt="السيارة 2" className="main-image" />
+          <img src={`${process.env.PUBLIC_URL}bmw.jpg`} alt="السيارة 1" className="main-image" />
+          <img src={`${process.env.PUBLIC_URL}bmw3.jpg`} alt="السيارة 2" className="main-image" />
         </Slider>
         <div className="top-icons">
           <FaHeart className="icon" />

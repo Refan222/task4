@@ -19,8 +19,8 @@ function CarDetailsPage() {
     <div className="car-details-page" dir="rtl">
       <div className="car-images">
         <Slider dots={true} infinite={true} speed={500} slidesToShow={1} slidesToScroll={1}>
-          <img src="bmw.jpg" alt="السيارة 1" className="main-image" />
-          <img src="bmw3.jpg" alt="السيارة 2" className="main-image" />
+          <img src={`${process.env.PUBLIC_URL}bmw.jpg`} alt="السيارة 1" className="main-image" />
+          <img src={`${process.env.PUBLIC_URL}bmw3.jpg`} alt="السيارة 2" className="main-image" />
         </Slider>
         <div className="top-icons">
           <FaHeart className="icon" />
@@ -213,7 +213,7 @@ function CarDetailsPage() {
 <div className="reports">
 
   <div className="report-card">
-    <img src="/mojaz.jpg" alt="تقرير موجز" className="report-icon" />
+    <img src={`${process.env.PUBLIC_URL}/mojaz.jpg`} alt="تقرير موجز" className="report-icon" />
     <h4>تقرير موجز</h4>
     <p>احصل على تقرير موجز لهذه المركبة الآن واستكشف أهم التفاصيل</p>
     <hr />
@@ -225,7 +225,7 @@ function CarDetailsPage() {
   </div>
 
   <div className="report-card">
-    <img src="/khalej.jpg" alt="السعر التقديري" className="report-icon" />
+    <img src={`${process.env.PUBLIC_URL}/khalej.jpg`} alt="السعر التقديري" className="report-icon" />
     <h4>السعر التقديري</h4>
     <p>اكتشف السعر التقديري لهذه المركبة الآن واتخذ قرارك بثقة</p>
     <hr />
@@ -237,7 +237,7 @@ function CarDetailsPage() {
   </div>
 
   <div className="report-card">
-    <img src="/taqeem.jpg" alt="تقرير الصيانة" className="report-icon" />
+    <img src={`${process.env.PUBLIC_URL}/taqeem.jpg`} alt="تقرير الصيانة" className="report-icon" />
     <h4>تقرير الصيانة</h4>
     <p>تفاصيل الصيانة والتقارير الفنية السابقة للمركبة</p>
     <hr />

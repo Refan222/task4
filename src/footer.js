@@ -41,7 +41,7 @@ function Footer() {
           </div>
         </div>
         <div className="logo">
-          <img src="/logo2.jpg" alt=" logo" />
+          <img src={`${process.env.PUBLIC_URL}/logo2.jpg`} alt=" logo" />
         </div>
       </div>
     </footer>
