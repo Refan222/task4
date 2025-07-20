@@ -11,7 +11,11 @@
   z-index: 500;
   font-family: 'Arial', sans-serif;
 }
-
+@media (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+}
 .logo-image {
   width: 150px;
   height: auto;
