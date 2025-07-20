@@ -67,7 +67,7 @@ function Home() {
       </div>
 
       <div className="welcome">
-        <img src="/car.jpg" alt="car" />
+        <img src={`${process.env.PUBLIC_URL}/car.jpg`} alt="car" />
         <div className="welcome-text">
           <h3>مرحبًا بك في لوحة التحكم</h3>
           <p>اكتشف مزاداتك بكل سهولة</p>
