@@ -3,6 +3,8 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { useNavigate } from "react-router-dom";
+import { toast, ToastContainer } from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css';
 
 import {FaHeart, FaShareAlt, FaExpand, FaBullhorn, FaClock, FaUsers,FaPlus, FaMinus, FaCar, FaGavel, FaMedal, FaCreditCard,
   FaExchangeAlt, FaTruck, FaGasPump, FaTachometerAlt,
@@ -12,9 +14,12 @@ import "./carDetails.css";
 function CarDetailsPage() {
   const navigate = useNavigate(); 
 
-  const handleClick = () => {
-    navigate("/messages"); 
-  };
+ const handleClick = () => {
+  toast.success("تم تسجيل مزايدتك بنجاح!", {
+    onClose: () => navigate("/messages"),
+    autoClose: 4000, 
+  });
+};
   return (
     <div className="car-details-page" dir="rtl">
       <div className="car-images">
@@ -97,7 +102,7 @@ function CarDetailsPage() {
         <button><FaMinus /></button>
       </div>
       <button className="bid-now" onClick={handleClick}>المزايدة</button>
-
+      <ToastContainer position="top-center" autoClose={4000} rtl />
       
       <h3 className="section-title">خطوات المزايدة</h3>
       <div className="steps">
