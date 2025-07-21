@@ -100,7 +100,8 @@
   font-size: 0.9rem;
   color: #555;
 }
-/* زر الهامبرقر (للجوال فقط) */
+
+
 .mobile-toggle {
   display: none;
   position: fixed;

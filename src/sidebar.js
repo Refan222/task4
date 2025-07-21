@@ -13,12 +13,10 @@ function Sidebar() {
 
   return (
     <>
-      {/* زر الهامبرقر يظهر فقط على الجوال */}
+      
       <button className="mobile-toggle" onClick={toggleSidebar}>
         {isSidebarOpen ? <FaTimes /> : <FaBars />}
       </button>
-
-      {/* السايد بار نفسه */}
       <aside className={`sidebar ${isSidebarOpen ? "open" : ""}`} dir="rtl">
         <div className="sidebar-logo">
           <img src={`${process.env.PUBLIC_URL}/logo.jpg`} alt="mazadatLogo" className="logo-image" />
